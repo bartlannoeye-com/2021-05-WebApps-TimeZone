@@ -3,4 +3,12 @@ Azure services, including App Service, run in UTC by default. If your software u
 
 Clone this repository to have a quick deployable project to test if your Azure App Service is handling time as desired.
 
-Blog post: https://bartlannoeye.com/blog/timezone-for-azure-appservice/
+More info in this [blog post](https://bartlannoeye.com/blog/timezone-for-azure-appservice/).
+
+You can use this to deploy the Windows app service plan in your own subscription:
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbartlannoeye-com%2F2021-05-WebApps-TimeZone%2Fmain%2Fsrc%2FTimezone%2FProperties%2FServiceDependencies%2Ftimezonemvppoc%2520-%2520Web%2520Deploy%2Fprofile.arm.json)
+
+You can use this to deploy the Linux app service plan in your own subscription:
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbartlannoeye-com%2F2021-05-WebApps-TimeZone%2Fmain%2Fsrc%2FTimezone%2FProperties%2FServiceDependencies%2Ftimezonepocmvp%2520-%2520Web%2520Deploy%2Fprofile.arm.json)
